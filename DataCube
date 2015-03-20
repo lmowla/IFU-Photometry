@@ -1,0 +1,18 @@
+# Routine to manipulate a data cube, using header information.
+# 2D, 3D of contour plots of slices and folded cube
+
+# Required Packages
+
+from astropy.io import fits
+from scipy import ndimage as nd
+import pylab as py
+import numpy as np
+from pylab import *
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+import os
+
+# Setting working Directory
+os.getcwd()
+os.chdir("/Users/lmowla/Desktop/RePy")
+
